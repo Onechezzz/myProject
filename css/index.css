@@ -1,0 +1,220 @@
+*{
+    margin:0;
+    
+}
+body{
+    text-align:center;
+    max-width: 1350px;
+    margin: 0 auto;
+    font-family: sans-serif;
+    font-size: 0.875em;
+    line-height: 1.6em;
+    color:black;
+    
+}
+h1{
+    margin:20px;
+    padding-top:20px; 
+    
+}
+h2{
+    margin:20px;
+}
+.price-grid{
+    grid-area:price-grid;
+    justify-content: center;
+    text-align:center; 
+    background:#eeeeee;
+    display:grid;
+    grid-template-columns:300px 300px 300px;
+    grid-template-rows: 100px 300px 0px;
+    
+    
+}
+.price-grid div {
+    grid-gap-columns: 25px;
+    padding:25px 0px;
+    background:#fff;
+    margin:0px 10px 0px;
+    border-radius: 6px;
+}
+.header{
+    grid-area:header;
+     background: #c11e0f;
+     z-index: 2;
+   position	: relative;
+	width		: 100%; /* for IE 6 */
+}
+#nav {
+  
+}
+
+#nav-buttons {
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    background-color: #c02410;
+    border-radius: 6px;
+}
+
+.nav-buttons-list {
+    float: right;
+    list-style-type: none;
+    background:#c02410;
+    border-radius: 6px;
+}
+
+#nav-buttons-list-bootstrap{
+    color: white;
+    overflow: hidden;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-radius: 6px;
+    background-color: #130d29;
+}
+
+#nav-buttons-list-bootstrap a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+    border-radius: 6px;
+}
+
+#nav-buttons-list-bootstrap a:hover {
+    background-color:red ;
+    border-radius: 6px;
+}
+
+
+.nav-buttons-list a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-buttons-list a:hover {
+    background-color: #111;
+    border-radius: 6px;
+}
+
+.semiopacity {
+     /* Цвет фона */
+    background-image:url("/image/header.jpg");
+    opacity: 0.3; /* Полупрозрачный фон */
+    filter: alpha(Opacity=70); /* Прозрачность в IE */
+    color: #fff; /* Цвет текста */
+   }
+.footer{
+    grid-area:footer;
+    background:grey;
+}
+.main{
+    grid-area:main;
+    background:green;
+}
+aside {
+  display: block;
+  margin-left: 45%;
+  box-shadow: 0px 0px 3px 3px #eeeeee inset;
+  background: white;
+  height:450px;
+  margin-top:3.75%;
+}
+.input{
+    border: 1px solid #cccccc; 
+   border-radius: 3px; 
+   background: #ffffff;
+   outline: none;
+   padding:5px;
+   margin:5px;
+   height: 50px; 
+   width: 300px; 
+   color: #cccccc; 
+   font-size: 16px; 
+   font-family: Tahoma; 
+   background:#eeeeee;
+    
+}
+#about{
+    padding:0px;
+    text-align:start;
+    align-items:center;
+}
+input:focus {
+  color: #000000;
+  border: 1px solid #000000
+}
+#aside1 {  /* селектор блока, который будет оставаться на месте */
+  position: fixed;
+  z-index: 15;
+  width:400px;
+}
+.left{
+    grid-area:left;
+    background:blue;
+}
+.services{
+    grid-area:services;
+    background:#ffffff;
+}
+
+.about{
+    
+    grid-area:about;
+    float:left;
+    background:#130d29;
+    color:white;
+}
+#portfolio-button{
+    margin-left:70%;
+    
+    margin-top: 0px;
+   
+   height: 50px; 
+   width: 300px;
+    
+    background:#c62314;
+    color:#aaaaaa;
+     border-radius: 6px;
+}
+.review{
+    
+    grid-area:review;
+    background:skyblue;
+}
+.container{
+    
+    display:grid;
+    grid-template-areas: "header header header"
+                            "main main main"
+                            "services services services"
+                            "about about about"
+                            "price-grid price-grid price-grid"
+                            "review review review"
+                            "footer footer footer";
+    grid-template-columns:450px 450px 450px;
+    grid-template-rows:485px 0px 350px 100px 380px 400px 100px;
+    min-height:150vh;
+}
+@media screen and (max-width:600px){
+    .container{
+        grid-template-areas:"header"
+                         "left"
+                         "main"
+                         "services"
+                         "about"
+                         "price-grid"
+                         "review"
+                         "footer";
+      grid-template-columns: 100%;   
+      grid-template-rows:1fr 50px 1fr 50px 30px 1fr 1fr 1fr 1fr; 
+    }
+   
+                    
+}
