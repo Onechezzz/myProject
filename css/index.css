@@ -59,7 +59,7 @@ h6{
 }
 #representation{
     font-weight: bold;
-   color:black;
+   color:white;
    font-size:24px;
    margin-top:0px; 
    margin-left:120px;
@@ -118,7 +118,7 @@ header{
 header::after{
     content:"";
     background-image: url(/image/background.jpg);
-    
+     background-image: url(image/background.jpg);
   /*opacity: 0.5;*/
   top: 0;
   left: 0;
@@ -199,8 +199,16 @@ input:focus {
     text-align:center;
     grid-area:services;
     background:#ffffff;
+    font-weight: bold;
 }
-
+#services{
+    padding:15px;
+    margin-right:350px;
+    
+}
+#services h2{
+    font-size:36px;
+}
 .about{
     text-align:center;
     grid-area:about;
