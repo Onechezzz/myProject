@@ -89,9 +89,10 @@ h6{
    list-style-type: none;
     background:#130d29;
     border-radius: 6px;
-    
+    color:white;
     height: 50px;
     width: 110px;
+    border:none;
   
 }
 .sign-up a{
@@ -117,7 +118,7 @@ header{
 }
 header::after{
     content:"";
-    background: url(image/background.jpg);
+    background-image: url(image/background.jpg);
     
   /*opacity: 0.5;*/
   top: 0;
