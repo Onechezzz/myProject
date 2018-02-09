@@ -1,0 +1,240 @@
+/*#circle1,#circle2,#circle3,#circle4,#circle5,#circle6,#circle7,#circle8,#circle9,#circle10,#circle11,#circle12,#circle13, #circle14{
+	
+}*/
+
+#circle1 {
+	width: 80px;
+	height: 80px;
+	/*background: yellow;*/
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	border:1px;
+	z-index:4;
+	position: relative;
+	margin:0px 100px;
+	top: -85px;
+	left:430px;
+	box-shadow: 0.4em 0.4em 17px  rgba(122,122,122,0.5);
+	background: url("http://placeimg.com/80/80/people");
+}
+#circle2 {
+	width: 80px;
+	height: 80px;
+	background: url("http://placeimg.com/80/80/sport");
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	border:1px;
+	z-index:4;
+	position: relative;
+	margin:0px 100px;
+	top: -120px;
+	left:430px;
+	box-shadow: 0.4em 0.4em 17px rgba(122,122,122,0.5);
+}
+#circle3{
+    width: 80px;
+	height: 80px;
+	background: url(/image/background.jpg);
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	border:1px;
+	z-index:4;
+	position: relative;
+	margin:0px 100px;
+	top: -345px;
+	left:680px;
+	box-shadow: 0.4em 0.4em 17px rgba(122,122,122,0.5);
+}
+#circle4 {
+	width: 80px;
+	height: 80px;
+	/*background: yellow;*/
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	border:1px;
+	z-index:4;
+	position: relative;
+	
+	top: -425px;
+	left:880px;
+	box-shadow: 0.4em 0.4em 17px  rgba(122,122,122,0.5);
+	 background:#c02410;
+}
+#circle5 {
+	width: 80px;
+	height: 80px;
+	/*background: yellow;*/
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	border:1px;
+	z-index:4;
+	position: relative;
+	
+	top: -505px;
+	left:980px;
+	box-shadow: 0.4em 0.4em 17px  rgba(122,122,122,0.5);
+	background: url("http://placeimg.com/80/80/people");
+}
+#circle6 {
+	width: 80px;
+	height: 80px;
+	/*background: yellow;*/
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	border:1px;
+	z-index:4;
+	position: relative;
+	
+	top: -485px;
+	left:780px;
+	box-shadow: 0.4em 0.4em 17px  rgba(122,122,122,0.5);
+	background:#c02410;
+}
+#circle7 {
+	width: 80px;
+	height: 80px;
+	/*background: yellow;*/
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	border:1px;
+	z-index:4;
+	position: relative;
+	margin:0px 100px;
+	top: -565px;
+	left:780px;
+	box-shadow: 0.4em 0.4em 17px  rgba(122,122,122,0.5);
+	background:#c02410;
+}
+#circle8 {
+	width: 80px;
+	height: 80px;
+	/*background: yellow;*/
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	border:1px;
+	z-index:4;
+	position: relative;
+	
+	top: -645px;
+	left:980px;
+	box-shadow: 0.4em 0.4em 17px  rgba(122,122,122,0.5);
+	background:#c02410;
+}
+#circle9 {
+	width: 80px;
+	height: 80px;
+	/*background: yellow;*/
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	border:1px;
+	z-index:4;
+	position: relative;
+	
+	top: -625px;
+	left:780px;
+	box-shadow: 0.4em 0.4em 17px  rgba(122,122,122,0.5);
+	background:#c02410;
+}
+#circle10 {
+	width: 80px;
+	height: 80px;
+	/*background: yellow;*/
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	border:1px;
+	z-index:4;
+	position: relative;
+	
+	top: -705px;
+	left:880px;
+	box-shadow: 0.4em 0.4em 17px  rgba(122,122,122,0.5);
+	background: url("http://placeimg.com/80/80/people");
+}
+#circle11 {
+	width: 80px;
+	height: 80px;
+	/*background: yellow;*/
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	border:1px;
+	z-index:4;
+	position: relative;
+	
+	top: -785px;
+	left:980px;
+	box-shadow: 0.4em 0.4em 17px  rgba(122,122,122,0.5);
+	background: url("http://placeimg.com/80/80/people");
+}
+#circle12 {
+	width: 80px;
+	height: 80px;
+	/*background: yellow;*/
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	border:1px;
+	z-index:4;
+	position: relative;
+	
+	top: -865px;
+	left:1080px;
+	box-shadow: 0.4em 0.4em 17px  rgba(122,122,122,0.5);
+	background:#c02410;
+}
+#circle13 {
+	width: 80px;
+	height: 80px;
+	/*background: yellow;*/
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	border:1px;
+	z-index:4;
+	position: relative;
+	
+	top: -1045px;
+	left:1080px;
+	box-shadow: 0.4em 0.4em 17px  rgba(122,122,122,0.5);
+	background: url("http://placeimg.com/80/80/people");
+}
+#circle14 {
+	width: 80px;
+	height: 80px;
+	/*background: yellow;*/
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	border:1px;
+	z-index:4;
+	position: relative;
+	
+	top: -1225px;
+	left:1080px;
+	box-shadow: 0.4em 0.4em 17px  rgba(122,122,122,0.5);
+	background:#c02410;
+}
+.circles a{
+	
+	border: none;
+	width: 80px;
+	height: 80px;
+	border-radius: 50px;
+	border:1px;
+}
+.circles a:hover{
+    background-color: #111;
+     width: 100px;
+	z-index:5;
+    	border-radius: 50px;
+}
