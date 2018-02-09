@@ -113,11 +113,12 @@ header{
   height: 485px;
   display: block;
   position: relative;
+  z-index: 1;
   
 }
 header::after{
     content:"";
-    background-image: url(image/background.png);
+    background-image : url(../image/background.png);
      /*background-image: url(image/background.jpg);*/
   /*opacity: 0.5;*/
   top: 0;
@@ -133,7 +134,7 @@ header::after{
      /* Цвет фона */
     background-image:url("/image/header.jpg");
     opacity: 0.3; /* Полупрозрачный фон */
-    filter: alpha(Opacity=70); /* Прозрачность в IE */
+     /* Прозрачность в IE */
     color: #fff; /* Цвет текста */
    }
 .footer{
