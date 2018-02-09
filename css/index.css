@@ -117,7 +117,7 @@ header{
 }
 header::after{
     content:"";
-    background-image: url(/image/background.png);
+    background-image: url(image/background.png);
      /*background-image: url(image/background.jpg);*/
   /*opacity: 0.5;*/
   top: 0;
